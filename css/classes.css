@@ -1,0 +1,15 @@
+.button1 {
+        display: inline-block;
+        border-radius: 3px;
+        border: solid;
+        border-color: rgb(57, 232, 255);
+        border-width: 1px;
+        background: rgb(82, 82, 82);
+        color: #FFF;
+        width: 150px;
+        height: 50px;
+        outline: none;
+}
+.button1:hover {
+        border-width: 3px;
+}
