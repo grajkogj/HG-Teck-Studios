@@ -78,3 +78,6 @@ section {
 #title-img {
         width: 100px;
 }
+#our-services-link:hover {
+        cursor: pointer;
+}

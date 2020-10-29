@@ -9,9 +9,11 @@
         width: 150px;
         height: 50px;
         outline: none;
+        transition: border-width 0.25s;
 }
 .button1:hover {
         border-width: 3px;
+        cursor: pointer;
 }
 .section-title {
         padding: 10px;
@@ -23,4 +25,12 @@
 .section-main {
         padding-left: 20px;
         padding-right: 20px;
+}
+.text-gradient {
+        background: rgb(0, 38, 255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation-name: gradient-shade;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
 }

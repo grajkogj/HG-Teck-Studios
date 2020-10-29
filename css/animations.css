@@ -1,0 +1,12 @@
+@keyframes gradient-shade {
+    50% {
+        background: rgb(0, 238, 255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    };
+    100% {
+        background: rgb(0, 38, 255);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    };
+}
